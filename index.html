@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>BootStrap Design</title>
+  </head>
+  <body>
+    <!-- nav start-->
+    <nav class="navbar navbar-expand-lg navbar-brand fixed-top w-100">
+      <div class="container-fluid mx-4 my-2">
+        <i class="fa-solid fa-house fa-lg"></i>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon mt-2"
+            ><i class="fa-solid fa-bars"></i
+          ></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#carousel">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Service">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#FAQ">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- nav end-->
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imgs/1.jpg " class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="imgs/5.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="imgs/3.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- landing end -->
+    <!-- start services -->
+    <div id="Service">
+      <h3 class="heading text-center text-capitalize display-1 fw-bold">
+        services
+      </h3>
+      <div class="content container-fluid row justify-content-evenly">
+        <div class="offers row col-md-8 gap-5 justify-content-center">
+          <div class="offerOne col-12 col-md-6 row">
+            <i class="fa-brands fa-figma fa-2x col-3 mt-2"></i>
+            <div class="txt col-9">
+              <p class="fw-bold fs-5">You Imagine, We Design</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                commodi qui recusandae ipsam sit hic, illum mollitia
+              </p>
+            </div>
+          </div>
+
+          <div class="offertWo col-12 row col-md-6">
+            <i class="fa-solid fa-mug-hot fa-2x col-3 mt-2"></i>
+            <div class="txt col-9">
+              <p class="fw-bold fs-5">Save Time For You</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                commodi qui recusandae ipsam sit hic, illum mollitia
+              </p>
+            </div>
+          </div>
+
+          <div class="offerthree row col-12 col-md-6">
+            <i class="fa-solid fa-lock fa-2x col-3 mt-2"></i>
+            <div class="txt col-9">
+              <p class="fw-bold fs-5">Garented Safty And Security</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                commodi qui recusandae ipsam sit hic, illum mollitia
+              </p>
+            </div>
+          </div>
+
+          <div class="offerFour row col-12 col-md-6">
+            <i class="fa-solid fa-globe fa-2x col-3 mt-2"></i>
+            <div class="txt col-9">
+              <p class="fw-bold fs-5">Global In a Minute</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                commodi qui recusandae ipsam sit hic, illum mollitia
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="imgs/p5.jpg"
+          class="col-md-4 d-none d-lg-inline-block shadow-lg g-0"
+          alt=""
+        />
+      </div>
+    </div>
+    <!-- service end-->
+    <!-- start of projects -->
+    <div id="projects">
+      <h3 class="heading text-center text-capitalize display-1 fw-bold">
+        projects
+      </h3>
+      <div class="samples container-fluid g-0 row gap-2 gap-md-0">
+        <div
+          class="custumCard border-0 row col-12 col-md-3 g-0 position-relative"
+        >
+          <img src="imgs/3 (1).jpg" class="" />
+          <button
+            type="button"
+            class="custumBtn btn btn-info position-absolute bottom-0"
+            data-bs-toggle="modal"
+            data-bs-target="#project-1"
+          >
+            Show Details
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="project-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Project Name</h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non,
+                  accusamus similique? Pariatur, recusandae ab aliquam atque
+                  possimus nemo iste ea numquam reprehenderit sint eum. Eum
+                  inventore qui vero itaque enim.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Nice
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="custumCard border-0 row col-12 col-md-3 g-0 position-relative"
+        >
+          <img src="imgs/4.jpg" class="" />
+          <button
+            type="button"
+            class="custumBtn btn btn-info position-absolute bottom-0"
+            data-bs-toggle="modal"
+            data-bs-target="#project-2"
+          >
+            Show Details
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="project-2">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Project Name</h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non,
+                  accusamus similique? Pariatur, recusandae ab aliquam atque
+                  possimus nemo iste ea numquam reprehenderit sint eum. Eum
+                  inventore qui vero itaque enim.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Nice
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="custumCard border-0 row col-12 col-md-3 g-0 position-relative"
+        >
+          <img src="imgs/p3.jpg" class="" />
+          <button
+            type="button"
+            class="custumBtn btn btn-info position-absolute bottom-0"
+            data-bs-toggle="modal"
+            data-bs-target="#project-3"
+          >
+            Show Details
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="project-3">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Project Name</h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non,
+                  accusamus similique? Pariatur, recusandae ab aliquam atque
+                  possimus nemo iste ea numquam reprehenderit sint eum. Eum
+                  inventore qui vero itaque enim.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Nice
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="custumCard border-0 row col-12 col-md-3 g-0 position-relative"
+        >
+          <img src="imgs/p4.jpg" class="" />
+          <button
+            type="button"
+            class="custumBtn btn btn-info position-absolute bottom-0"
+            data-bs-toggle="modal"
+            data-bs-target="#project-4"
+          >
+            Show Details
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="project-4">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Project Name</h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non,
+                  accusamus similique? Pariatur, recusandae ab aliquam atque
+                  possimus nemo iste ea numquam reprehenderit sint eum. Eum
+                  inventore qui vero itaque enim.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Nice
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="custumCard border-0 row col-12 col-md-3 g-0 position-relative"
+        >
+          <img src="imgs/landing.jpg" class="" />
+          <button
+            type="button"
+            class="custumBtn btn btn-info position-absolute bottom-0"
+            data-bs-toggle="modal"
+            data-bs-target="#project-5"
+          >
+            Show Details
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="project-5">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Project Name</h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non,
+                  accusamus similique? Pariatur, recusandae ab aliquam atque
+                  possimus nemo iste ea numquam reprehenderit sint eum. Eum
+                  inventore qui vero itaque enim.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Nice
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="custumCard border-0 row col-12 col-md-3 g-0 position-relative"
+        >
+          <img
+            src="imgs/Rocky-Mountains-in-Black-and-White-Silhouette-528723418_4928x3264-2.jpeg"
+            class=""
+          />
+          <button
+            type="button"
+            class="custumBtn btn btn-info position-absolute bottom-0"
+            data-bs-toggle="modal"
+            data-bs-target="#project-6"
+          >
+            Show Details
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="project-6">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Project Name</h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non,
+                  accusamus similique? Pariatur, recusandae ab aliquam atque
+                  possimus nemo iste ea numquam reprehenderit sint eum. Eum
+                  inventore qui vero itaque enim.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Nice
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="custumCard border-0 row col-12 col-md-3 g-0 position-relative"
+        >
+          <img src="imgs/shuffle-04.jpg" class="" />
+          <button
+            type="button"
+            class="custumBtn btn btn-info position-absolute bottom-0"
+            data-bs-toggle="modal"
+            data-bs-target="#project-7"
+          >
+            Show Details
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="project-7">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Project Name</h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non,
+                  accusamus similique? Pariatur, recusandae ab aliquam atque
+                  possimus nemo iste ea numquam reprehenderit sint eum. Eum
+                  inventore qui vero itaque enim.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Nice
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="custumCard border-0 row col-12 col-md-3 g-0 position-relative"
+        >
+          <img src="imgs/shuffle-05.jpg" class="" />
+          <button
+            type="button"
+            class="custumBtn btn btn-info position-absolute bottom-0"
+            data-bs-toggle="modal"
+            data-bs-target="#project-8"
+          >
+            Show Details
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="project-8">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Project Name</h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non,
+                  accusamus similique? Pariatur, recusandae ab aliquam atque
+                  possimus nemo iste ea numquam reprehenderit sint eum. Eum
+                  inventore qui vero itaque enim.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Nice
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of samples -->
+    </div>
+    <!-- end of projects -->
+    <!-- start of Pricing -->
+    <div id="pricing">
+      <h3 class="heading text-center text-capitalize display-1 fw-bold">
+        pricing
+      </h3>
+      <div class="container-fluid row justify-content-evenly">
+        <div class="col-md col-lg-3 col-10 my-2">
+          <div class="card h-100">
+            <div class="card-header text-center p-5">
+              <h5 class="fw-bolder text-primary">Basic</h5>
+              <h1 class="text-center fw-bold">4.99$</h1>
+              <p class="small text-end">/month</p>
+            </div>
+            <div class="card-body">
+              <ul class="list-group text-center">
+                <li
+                  class="list-group-item border-0 border-bottom my-3 position-relative"
+                >
+                  <i
+                    class="fa-solid fa-check fa-lg text-success position-absolute start-0 top-50"
+                  ></i
+                  >Feature One
+                </li>
+                <li
+                  class="list-group-item border-0 border-bottom my-3 position-relative"
+                >
+                  <i
+                    class="fa-solid fa-xmark fa-lg text-danger position-absolute start-0 top-50"
+                  ></i
+                  >Feature Two
+                </li>
+                <li
+                  class="list-group-item border-0 border-bottom my-3 position-relative"
+                >
+                  <i
+                    class="fa-solid fa-xmark fa-lg text-danger position-absolute start-0 top-50"
+                  ></i
+                  >Feature Three
+                </li>
+                <li
+                  class="list-group-item border-0 border-bottom my-3 position-relative"
+                >
+                  <i
+                    class="fa-solid fa-xmark fa-lg text-danger position-absolute start-0 top-50"
+                  ></i
+                  >Feature Four
+                </li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-outline-primary btn-lg col-12">
+                Get Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md col-lg-3 col-10 my-2">
+          <div class="card h-100">
+            <div class="card-header text-center p-5">
+              <h5 class="fw-bolder text-danger">Standard</h5>
+              <h1 class="text-center fw-bold">15.99$</h1>
+              <p class="small text-end">/month</p>
+            </div>
+            <div class="card-body">
+              <ul class="list-group text-center">
+                <li
+                  class="list-group-item border-0 border-bottom my-3 position-relative"
+                >
+                  <i
+                    class="fa-solid fa-check fa-lg text-success position-absolute start-0 top-50"
+                  ></i
+                  >Feature One
+                </li>
+                <li
+                  class="list-group-item border-0 border-bottom my-3 position-relative"
+                >
+                  <i
+                    class="fa-solid fa-check fa-lg text-success position-absolute start-0 top-50"
+                  ></i
+                  >Feature Two
+                </li>
+                <li
+                  class="list-group-item border-0 border-bottom my-3 position-relative"
+                >
+                  <i
+                    class="fa-solid fa-xmark fa-lg text-danger position-absolute start-0 top-50"
+                  ></i
+                  >Feature Three
+                </li>
+                <li
+                  class="list-group-item border-0 border-bottom my-3 position-relative"
+                >
+                  <i
+                    class="fa-solid fa-xmark fa-lg text-danger position-absolute start-0 top-50"
+                  ></i
+                  >Feature Four
+                </li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-outline-primary btn-lg col-12">
+                Get Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md col-lg-3 col-10 my-2">
+          <div class="card h-100">
+            <div class="card-header text-center p-5">
+              <h5 class="fw-bolder text-success">Enterprise</h5>
+              <h1 class="text-center fw-bold">29.99$</h1>
+              <p class="small text-end">/month</p>
+            </div>
+            <div class="card-body">
+              <ul class="list-group text-center">
+                <li
+                  class="list-group-item border-0 border-bottom my-3 position-relative"
+                >
+                  <i
+                    class="fa-solid fa-check fa-lg text-success position-absolute start-0 top-50"
+                  ></i
+                  >Feature One
+                </li>
+                <li
+                  class="list-group-item border-0 border-bottom my-3 position-relative"
+                >
+                  <i
+                    class="fa-solid fa-check fa-lg text-success position-absolute start-0 top-50"
+                  ></i
+                  >Feature Two
+                </li>
+                <li
+                  class="list-group-item border-0 border-bottom my-3 position-relative"
+                >
+                  <i
+                    class="fa-solid fa-check fa-lg text-success position-absolute start-0 top-50"
+                  ></i
+                  >Feature Three
+                </li>
+                <li
+                  class="list-group-item border-0 border-bottom my-3 position-relative"
+                >
+                  <i
+                    class="fa-solid fa-check fa-lg text-success position-absolute start-0 top-50"
+                  ></i
+                  >Feature Four
+                </li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-outline-primary btn-lg col-12">
+                Get Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of projects -->
+    <!-- Cotact start -->
+    <div id="contact" class="my-5">
+      <h3 class="heading text-center text-capitalize display-4 fw-bold">
+        get in touch
+      </h3>
+      <div class="container-fluid row bg-light py-3 justify-content-evenly g-0">
+        <form class="col-md-6 col-10">
+          <div class="form-floating my-2">
+            <input
+              type="text"
+              class="form-control"
+              id="Name"
+              placeholder="name"
+              autocomplete="off"
+            />
+            <label for="name">Full Name</label>
+          </div>
+          <div class="form-floating my-2">
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              autocomplete="off"
+              placeholder="email"
+            />
+            <label for="email">E-mail</label>
+          </div>
+          <div class="form-floating my-2">
+            <textarea
+              name=""
+              id="text"
+              class="form-control"
+              placeholder="Subject"
+              style="height: 100px"
+            ></textarea>
+            <label for="text">What Can We Do To Help?</label>
+          </div>
+          <div class="d-flex justify-content-end">
+            <button
+              type="button"
+              class="btn btn-outline-primary"
+              data-bs-toggle="popover"
+              title="sent successfully"
+              data-bs-trigger="focus"
+              onclick="event.preventDefault();"
+            >
+              Send Message
+            </button>
+          </div>
+        </form>
+        <div class="col-md-4 col-10 my-5 my-md-2 text-center text-md-start">
+          <h3 class="fw-bold text-center mb-4">Contact Details</h3>
+          <div class="my-4 fs-5">
+            <i class="fa-solid fa-location-dot me-2"></i>
+            <span>Address : this is an Adress</span>
+          </div>
+          <div class="my-4 fs-5">
+            <i class="fa-solid fa-phone me-2"></i>
+            <span>Phone : +20101231324</span>
+          </div>
+          <div class="my-4 fs-5">
+            <i class="fa-solid fa-envelope me-2"></i>
+            <span>E-mail : email@email.com</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact end -->
+    <!-- FAQ start -->
+    <div id="FAQ" class="my-5">
+      <h3 class="heading text-center text-capitalize display-6 fw-bold mb-5">
+        frequently asked questions
+      </h3>
+      <!-- accordion start -->
+
+      <div
+        class="container-fluid row gap-3 gap-md-0 g-0 justify-content-evenly"
+      >
+        <div class="accordion col-md-5 col-10" id="accordionLeft">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+              >
+                Question #1
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionLeft"
+            >
+              <div class="accordion-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Molestias, dolor fugit aliquid facilis dolorum in dicta
+                explicabo, amet provident delectus quasi officiis maxime quos
+                commodi reprehenderit, sapiente tempore ducimus facere!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+              >
+                Question #2
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionLeft"
+            >
+              <div class="accordion-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Molestias, dolor fugit aliquid facilis dolorum in dicta
+                explicabo, amet provident delectus quasi officiis maxime quos
+                commodi reprehenderit, sapiente tempore ducimus facere!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+              >
+                Question #3
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionLeft"
+            >
+              <div class="accordion-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Molestias, dolor fugit aliquid facilis dolorum in dicta
+                explicabo, amet provident delectus quasi officiis maxime quos
+                commodi reprehenderit, sapiente tempore ducimus facere!
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion col-md-5 col-10" id="accordionRight">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+              >
+                Question #4
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionRight"
+            >
+              <div class="accordion-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Molestias, dolor fugit aliquid facilis dolorum in dicta
+                explicabo, amet provident delectus quasi officiis maxime quos
+                commodi reprehenderit, sapiente tempore ducimus facere!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+              >
+                Question #5
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionRight"
+            >
+              <div class="accordion-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Molestias, dolor fugit aliquid facilis dolorum in dicta
+                explicabo, amet provident delectus quasi officiis maxime quos
+                commodi reprehenderit, sapiente tempore ducimus facere!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSix"
+              >
+                Question #6
+              </button>
+            </h2>
+            <div
+              id="collapseSix"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionRight"
+            >
+              <div class="accordion-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Molestias, dolor fugit aliquid facilis dolorum in dicta
+                explicabo, amet provident delectus quasi officiis maxime quos
+                commodi reprehenderit, sapiente tempore ducimus facere!
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- acc end -->
+      </div>
+      <!-- accordion start -->
+    </div>
+    <!-- FAQ end -->
+    <!-- footer start -->
+    <footer class="text-center">
+      <p class="text-capitalize pt-3 mb-0 fs-6">
+        Copyright &copy; all right reserved to this establishment
+      </p>
+      <div class="fs-5">
+        <i class="fa-brands fa-discord" style="color: #7289da"></i>
+        <i class="fa-brands fa-facebook text-primary"></i>
+        <i class="fa-brands fa-linkedin text-primary"></i>
+        <i class="fa-brands fa-github text-dark"></i>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var popoverTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="popover"]')
+      );
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl);
+      });
+    </script>
+  </body>
+</html>
